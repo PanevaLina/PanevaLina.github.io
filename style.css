@@ -1,0 +1,243 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    width: 1000px; 
+    font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+}
+body{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.part1{
+    background: url(sliki/josh-calabrese-XXpbdU_31Sg-unsplash.jpg) no-repeat center  fixed; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 1213px;
+    height: 600px;
+    
+}
+.header{
+    width: 400px;
+    position: sticky;
+    top:  0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    width: 400px;
+    
+}
+.menu-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 10px;
+    width: 400px;
+    color: black;
+    
+    position: sticky;
+    top: 0px;
+    
+}
+.listitem{
+    text-transform: uppercase;
+    border-left: 4px solid green;
+    padding-left: 5px;
+}
+.listitem > a{
+    text-decoration: none;
+    color: black;
+}
+.simplepara{
+    width: 400px;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.para > p{
+    font-size: 30px;
+}
+body > div.simplepara > div > p:nth-child(1){
+    margin-bottom: 8px;
+    font-size: x-large;
+}
+.part2{
+    padding-top: 150px;
+    background: url(sliki/julia-janeta-PwWkzeJeJZE-unsplash.jpg) no-repeat center fixed; 
+    background-size: cover;
+    width: 1213px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+.slika{
+    width: 250px;
+    height: 350px;
+}
+.slika > img{
+    width: 250px;
+    height: 350px;
+    box-shadow: 10px 10px 5px 0px gray;
+}
+.paragraph > p{
+    width: 250px;
+    font-size: 19px;
+    line-height: 27px;
+}
+.gif{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.arrow {
+    display: table;
+    border: solid green;
+    border-width: 0 5px 5px 0;
+    padding: 40px;
+    transform: rotate(45deg);
+    margin-left: 55px;
+}
+.part2{
+    border-bottom: 4px solid green;
+    width: 1213px;
+    height: 450px;
+}
+.part3{
+    display: flex;
+    flex-direction: column;
+}
+.gallery1{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    height: 465px;
+}
+.gallery1 > .picture1{
+    padding-top: 40px;
+}
+.gallery1 > .picture1 > img{
+    width: 250px;
+    height: 400px;
+    box-shadow: 10px 10px 5px 0px gray;
+    border-radius: 10px;
+}
+.gallery1 > div:nth-child(3) > img{
+    width: 300px;
+    height: 400px;
+}
+.gallery1 > .picture1 > p {
+    margin-top: -30px;
+    color: white;
+    font-style: italic;
+}
+.picture1 > p{
+    display: flex;
+    justify-content: center;
+}
+.gallery1 > h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+    width: 36.7px;
+    border-right: 4px solid green;
+}
+.gallery2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 370px;
+}
+.gallery2 > h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    width: 90.47;
+}
+.gallery2 > .picture1 > img{
+    width: 310px;
+    height: 270px;
+    box-shadow: 10px 10px 5px 0px gray;
+    border-radius: 10px;
+}
+.gallery2 > h3{
+    font-size: 16.4px;
+    border-right: 4px solid green;
+}
+.gallery2 > .picture1 {
+    padding-top: 80px;
+}
+.gallery2 > .picture1 > p{
+    color: white;
+    font-style: italic;
+    margin-top: -30px;
+}
+.part4{
+    width: 1213px;
+    height: 400px;
+    background: url(sliki/contact.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+.contact{
+    width: 250px;
+    height: 300px;
+    margin-top: 70px;
+    border: 3px solid green;
+    border-radius: 50px;
+    padding: 8px;
+}
+.contact > .social{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#sp > a > img{
+    width: 50px;
+    height: 50px;
+}
+.contact > h1{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+.contact > .social > #sp > a > img{
+    width: 50px;
+    height: 50px;
+}
+.contact > h4{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid green;
+    margin-bottom: 6px;
+}
+.contact > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
